@@ -19,6 +19,7 @@ public class ComplexNumber {
             for (int i = s.length() - 1; i >= 0; i--) {
                 if (s.charAt(i) == '-' || s.charAt(i) == '+') {
                     index = i;
+                    break;
                 }
             }
             // if the s contains only imaginary part we set real to zero
